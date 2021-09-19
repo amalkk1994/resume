@@ -1,13 +1,73 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+
+* {
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 30px auto;
+  overflow: auto;
+  min-height: 300px;
+  border: 10px solid steelblue;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.header {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: flex;
+  background: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 10px;
+  margin: 20px 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+  width: 700px;
+}
+
+.myBtn {
+  background: #000;
+  color: #fff;
+  padding: 10px 400px;
+  margin: 20px 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+  font-family: inherit;
+  border: none;
+}
+
+.skill {
+  background: #f4f4f4;
+  margin: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  width: 700px;
+}
+
+.summary {
+  background: #f4f4f4;
+  padding: 10px 20px;
+  width: 700px;
+}
+
+.attributeDetails {
+  background: #f4f4f4;
+  padding: 10px 20px;
+  width: 700px;
 }
